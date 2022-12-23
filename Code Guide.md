@@ -124,5 +124,39 @@ def main():
 if __name__ == "__main__":
   main()
 
+C++ (has a loop)
+
+#include <iostream>
+
+void print_numbers(int start, int end) {
+  for (int i = start; i <= end; i++) {
+    std::cout << i << " ";
+  }
+  std::cout << std::endl;
+}
+
+int main() {
+  int start, end;
+  std::cout << "Enter start and end values: ";
+  std::cin >> start >> end;
+  print_numbers(start, end);
+  return 0;
+}
+
+Python has a input loop
+
+def print_numbers(start, end):
+  for i in range(start, end + 1):
+    print(i, end=' ')
+  print()
+
+def main():
+  start = int(input("Enter start value: "))
+  end = int(input("Enter end value: "))
+  print_numbers(start, end)
+
+if __name__ == "__main__":
+  main()
+
 
 
