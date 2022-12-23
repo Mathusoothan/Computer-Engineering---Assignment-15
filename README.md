@@ -1,4 +1,4 @@
-# Computer-Engineering---Assignment-15
+#Minecraft EE Code
 def on_on_chat():
     mobs.spawn(PIG, pos(0, 0, 0))
 player.on_chat("pig", on_on_chat)
