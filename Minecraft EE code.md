@@ -1,4 +1,4 @@
-#Minecraft EE Code
+#Minecraft EE Codes
 
 def on_on_chat():
     mobs.spawn(PIG, pos(0, 0, 0))
